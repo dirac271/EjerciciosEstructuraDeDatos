@@ -4,7 +4,7 @@ public class Nodo {
     public Nodo siguiente; //puntero
     //al final
     public Nodo(int d){
-        this.dato = d;
+        this(d,null);
     }
     //constructor al inicio
     public Nodo(int d,Nodo nodo){
